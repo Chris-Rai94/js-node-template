@@ -1,9 +1,25 @@
-const student = {
+const student1 = {
 	name: "Sarah",
 	course: "JavaScript",
 	grade: 95,
-
-	displayInfo() {
-		return `${this.name} is taking ${this.course} and expects to earn ${this.grade}.`;
-	},
 };
+
+const student2 = {
+	name: "John",
+	course: "Python",
+	grade: 88,
+};
+
+const student3 = {
+	name: "Alice",
+	course: "C++",
+	grade: 92,
+};
+
+function displayStudentInfo(student) {
+	return `${student.name} is taking ${student.course} and expects to earn ${student.grade}%.`;
+}
+
+console.log(displayStudentInfo(student1));
+console.log(displayStudentInfo(student2));
+console.log(displayStudentInfo(student3));
