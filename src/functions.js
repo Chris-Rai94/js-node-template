@@ -37,3 +37,14 @@ function buildFullName(name) {
 	return `${name.firstName} ${name.lastName}`;
 }
 console.log(buildFullName(nameInfo));
+//test 6
+const character = {
+	name: "Hero",
+	weapon: "Sword",
+	level: 1,
+};
+
+function createCharacterDescription(character) {
+	return `Level ${character.level} ${character.name} wields a ${character.weapon}.`;
+}
+console.log(createCharacterDescription(character));
