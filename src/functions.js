@@ -28,3 +28,12 @@ function calculateCartTotal(cart) {
 	return cart.price + cart.price * cart.tax;
 }
 console.log(calculateCartTotal(cart));
+//test 5
+const nameInfo = {
+	firstName: "John",
+	lastName: "Doe",
+};
+function buildFullName(name) {
+	return `${name.firstName} ${name.lastName}`;
+}
+console.log(buildFullName(nameInfo));
