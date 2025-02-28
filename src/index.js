@@ -16,10 +16,10 @@ const student3 = {
 	grade: 92,
 };
 
-function displayStudentInfo(student) {
-	return `${student.name} is taking ${student.course} and expects to earn ${student.grade}%.`;
+function displayStudentInfo(name, course, grade) {
+	return `${name} is taking ${course} and expects to earn ${grade}%.`;
 }
 
-console.log(displayStudentInfo(student1));
-console.log(displayStudentInfo(student2));
-console.log(displayStudentInfo(student3));
+console.log(displayStudentInfo("Sarah", "JavaScript", 95));
+console.log(displayStudentInfo("John", "Python", 88));
+console.log(displayStudentInfo("Alice", "C++", 92));
