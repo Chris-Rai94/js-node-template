@@ -18,3 +18,13 @@ function combineStrings(str1, str2) {
 	return `${str1} ${str2}`;
 }
 console.log(combineStrings("Hello", "World"));
+//test 4
+const cart = {
+	price: 100,
+	tax: 0.07,
+};
+
+function calculateCartTotal(cart) {
+	return cart.price + cart.price * cart.tax;
+}
+console.log(calculateCartTotal(cart));
