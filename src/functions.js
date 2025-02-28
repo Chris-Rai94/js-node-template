@@ -8,3 +8,8 @@ function calculateTotal(order) {
 	return order.price * order.quantity;
 }
 console.log(calculateTotal(order));
+//test 2
+function formatUsername(firstName, lastName) {
+	return `${lastName}, ${firstName}`;
+}
+console.log(formatUsername("John", "Doe"));
