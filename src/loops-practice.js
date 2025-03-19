@@ -23,3 +23,10 @@ for (let i = 0; i < favGames.length; i++) {
 	// Shows list of favorite games in the form of item # and game
 	console.log(`Item ${i + 1}: ${favGames[i]}`);
 }
+
+const players = [
+	// Array of players
+	{ player: "Raiblis", kills: 10, deaths: 2 },
+	{ player: "Kai", kills: 5, deaths: 3 },
+	{ player: "Jade", kills: 7, deaths: 5 },
+];
