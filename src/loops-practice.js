@@ -1,16 +1,16 @@
-/*for (let i = 1; i < 11; i++) {
+for (let i = 1; i < 11; i++) {
 	// Takes i and counts to 10 starting from 1
 	console.log(i);
 }
 
-i = 1; // Takes i and counts to 10 starting from 1
+let i = 1; // Takes i and counts to 10 starting from 1
 while (i < 11) {
 	console.log(i);
 	i++;
-}*/
+}
 /* The for loop has i declared in the loop, while the while loop has i declared outside of the loop. Both loops will count to 10 starting from 1. */
 
-/*const favGames = [
+const favGames = [
 	// Array of favorite games
 	"Monochrome Mobius: Rights and Wrongs Forgotten",
 	"The Legend of Zelda Twilight Princess",
@@ -22,7 +22,7 @@ while (i < 11) {
 for (let i = 0; i < favGames.length; i++) {
 	// Shows list of favorite games in the form of item # and game
 	console.log(`Item ${i + 1}: ${favGames[i]}`);
-}*/
+}
 
 const players = [
 	// Array of players
