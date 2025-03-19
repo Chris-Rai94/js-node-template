@@ -25,3 +25,34 @@ Another way a website might use loops if with a quick search function.
 As you type in the search bar it gives options on what it could be using criteria from the search bar  
 and looping the text while displaying options that match that text in a dropdown menu.
 This allows the website to be more user-friendly since they may not know the full text of an option.
+
+## Explain `for` and `while` Loops
+
+Both for and while loops allow us to reiterate some code to be used multiple times.  
+This makes our code shorter and more readable.  
+A `for` loop declares a variable, typically i, within the for loop structure and uses that to loop back  
+a set number of times.
+
+```JavaScript
+for(let i = 1; i < 11 ; i++){
+    console.log(i);// 1,2,3...
+}
+```
+
+A `while` loop takes an outside variable or condition and loops until that condition is no longer met.
+This allows loops when you do not know how many loops you will need.
+
+```JavaScript
+let i = 0;
+let health = 100;
+const damage = 25
+while(health > 0){
+    health -= damage
+    i++
+}
+console.log(`It took ${i}rounds to kill the player`)//4 rounds
+```
+
+Above we see that if damage was different it would take a different amount of time to get health to zero.  
+So here a while loop is better than a for loop.
+If there was only 4 rounds then a for loop may be better.
