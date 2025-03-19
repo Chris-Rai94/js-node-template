@@ -10,4 +10,8 @@ It would tell me that a semi-colon was needed. I just didn't know where until I 
 
 ## Not Immediately Apparent
 
-I would say the `.toFixed`
+I would say the `.toFixed` I figured there was something to limit decimal places.  
+I did not know that it was doing that until the video.  
+The `Math` function and it's methods was self explanatory as I had to use  
+similar in all the programming languages I know.  
+In the other languages it might look different but they all used methods from Math.
